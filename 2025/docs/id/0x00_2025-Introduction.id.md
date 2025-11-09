@@ -1,11 +1,6 @@
 # Perkenalan
 
-  -----------
-  Logo OWASP
-
-  -----------
-
-  : Logo OWASP
+![Logo OWASP](../../assets/TOP_10_logo_Final_Logo_Colour.png)
 
 Selamat datang di edisi ke-8 OWASP Top Ten!
 
@@ -15,22 +10,16 @@ terwujud. **TERIMA KASIH!**
 
 ## Memperkenalkan OWASP Top 10:2025
 
-- [A01:2025 - Kontrol Akses Rusak](A01_2025-Broken_Access_Control.md)
-- [A02:2025 - Kesalahan Konfigurasi
-  Keamanan](A02_2025-Security_Misconfiguration.md)
-- [A03:2025 - Kegagalan Rantai Pasokan Perangkat
-  Lunak](A03_2025-Software_Supply_Chain_Failures.md)
-- [A04:2025 - Kegagalan Kriptografi](A04_2025-Cryptographic_Failures.md)
-- [A05:2025 - Injeksi](A05_2025-Injection.md)
-- [A06:2025 - Desain yang Tidak Aman](A06_2025-Insecure_Design.md)
-- [A07:2025 - Kegagalan
-  Autentikasi](A07_2025-Authentication_Failures.md)
-- [A08:2025 - Kegagalan Integritas Data atau Perangkat
-  Lunak](A08_2025-Software_or_Data_Integrity_Failures.md)
-- [A09:2025 - Kegagalan Pencatatan Log &
-  Peringatan](A09_2025-Logging_and_Alerting_Failures.md)
-- [A10:2025 - Penanganan Kondisi Luar Biasa yang
-  Salah](A10_2025-Mishandling_of_Exceptional_Conditions.md)
+- [A01:2025 - Kontrol Akses Rusak](A01_2025-Broken_Access_Control.id.md)
+- [A02:2025 - Kesalahan Konfigurasi Keamanan](A02_2025-Security_Misconfiguration.id.md)
+- [A03:2025 - Kegagalan Rantai Pasokan Perangkat Lunak](A03_2025-Software_Supply_Chain_Failures.id.md)
+- [A04:2025 - Kegagalan Kriptografi](A04_2025-Cryptographic_Failures.id.md)
+- [A05:2025 - Injeksi](A05_2025-Injection.id.md)
+- [A06:2025 - Desain yang Tidak Aman](A06_2025-Insecure_Design.id.md)
+- [A07:2025 - Kegagalan Autentikasi](A07_2025-Authentication_Failures.id.md)
+- [A08:2025 - Kegagalan Integritas Data atau Perangkat Lunak](A08_2025-Software_or_Data_Integrity_Failures.id.md)
+- [A09:2025 - Kegagalan Pencatatan Log & Peringatan](A09_2025-Logging_and_Alerting_Failures.id.md)
+- [A10:2025 - Penanganan Kondisi Luar Biasa yang Salah](A10_2025-Mishandling_of_Exceptional_Conditions.id.md)
 
 ## Apa yang berubah di Top 10 untuk tahun 2025
 
@@ -40,30 +29,25 @@ akar permasalahan, alih-alih pada gejalanya. Dengan kompleksitas
 rekayasa perangkat lunak dan keamanan perangkat lunak, pada dasarnya
 mustahil untuk membuat sepuluh kategori tanpa adanya tumpang tindih.
 
-  ----------
-   Pemetaan
+![Pemetaan](../../assets/2025-mappings.png)
 
-  ----------
-
-- [**A01:2025 -- Kontrol Akses
-  Rusak**](A01_2025-Broken_Access_Control.md) mempertahankan posisinya
+- [**A01:2025 -- Kontrol Akses Rusak**](A01_2025-Broken_Access_Control.id.md)
+  mempertahankan posisinya
   di peringkat #1 sebagai risiko keamanan aplikasi paling serius; data
   yang disumbangkan menunjukkan bahwa rata-rata, 3,73% aplikasi yang
   diuji memiliki satu atau lebih dari 40 Common Weakness Enumerations
   (CWE) dalam kategori ini. Sebagaimana ditunjukkan oleh garis
   putus-putus pada gambar di atas, Server-Side Request Forgery (SSRF)
   telah dimasukkan ke dalam kategori ini.
-- [**A02:2025 - Kesalahan Konfigurasi
-  Keamanan**](A02_2025-Security_Misconfiguration.md) naik dari #5 pada
+- [**A02:2025 - Kesalahan Konfigurasi Keamanan**](A02_2025-Security_Misconfiguration.id.md) 
+  naik dari #5 pada
   tahun 2021 menjadi #2 pada tahun 2025. Kesalahan konfigurasi lebih
   umum dalam data untuk siklus ini. 3,00% aplikasi yang diuji memiliki
   satu atau lebih dari 16 CWE dalam kategori ini. Hal ini tidak
   mengherankan, karena rekayasa perangkat lunak terus meningkatkan
   jumlah perilaku aplikasi yang didasarkan pada konfigurasi.
-- [**A03:2025 - Kegagalan Rantai Pasokan Perangkat
-  Lunak**](A03_2025-Software_Supply_Chain_Failures.md) merupakan
-  perluasan dari [A06:2021 - Komponen Rentan dan
-  Kedaluwarsa](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
+- [**A03:2025 - Kegagalan Rantai Pasokan Perangkat Lunak**](A03_2025-Software_Supply_Chain_Failures.id.md) 
+  merupakan perluasan dari [A06:2021 - Komponen Rentan dan Kedaluwarsa](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
   untuk menyertakan cakupan kompromi yang lebih luas yang terjadi di
   dalam atau di seluruh ekosistem dependensi perangkat lunak, sistem
   pengembangan, dan infrastruktur distribusi. Kategori ini dipilih
@@ -74,53 +58,50 @@ mustahil untuk membuat sepuluh kategori tanpa adanya tumpang tindih.
   di area ini. Kategori ini memiliki kejadian paling sedikit dalam data,
   tetapi juga memiliki skor eksploitasi dan dampak rata-rata tertinggi
   dari CVE.
-- [**A04:2025 - Kegagalan
-  Kriptografi**](A04_2025-Cryptographic_Failures.md) turun dua peringkat
+- [**A04:2025 - Kegagalan Kriptografi**](A04_2025-Cryptographic_Failures.id.md) 
+  turun dua peringkat
   dari #2 ke #4 dalam peringkat. Data yang disumbangkan menunjukkan
   bahwa, rata-rata, 3,80% aplikasi memiliki satu atau lebih dari 32 CWE
   dalam kategori ini. Kategori ini sering menyebabkan paparan data
   sensitif atau kompromi sistem.
-- [**A05:2025 - Injeksi**](A05_2025-Injection.md) turun dua tingkat dari
+- [**A05:2025 - Injeksi**](A05_2025-Injection.id.md) turun dua tingkat dari
   #3 ke #5 dalam peringkat, mempertahankan posisinya relatif terhadap
   Kegagalan Kriptografi dan Desain Tidak Aman. Injeksi adalah salah satu
   kategori yang paling banyak diuji, dengan jumlah CVE terbanyak terkait
   dengan 38 CWE dalam kategori ini. Injeksi mencakup berbagai masalah
   mulai dari kerentanan Cross-site Scripting (frekuensi tinggi/dampak
   rendah) hingga Injeksi SQL (frekuensi rendah/dampak tinggi).
-- [**A06:2025 - Desain yang Tidak Aman**](A06_2025-Insecure_Design.md)
+- [**A06:2025 - Desain yang Tidak Aman**](A06_2025-Insecure_Design.id.md)
   turun dua tingkat dari #4 ke #6 karena Kesalahan Konfigurasi Keamanan
   dan Kegagalan Rantai Pasokan Perangkat Lunak melampauinya. Kategori
   ini diperkenalkan pada tahun 2021, dan kami telah melihat peningkatan
   yang signifikan dalam industri terkait pemodelan ancaman dan penekanan
   yang lebih besar pada desain yang aman.
 - [**A07:2025 - Kegagalan
-  Autentikasi**](A07_2025-Authentication_Failures.md) mempertahankan
+  Autentikasi**](A07_2025-Authentication_Failures.id.md) mempertahankan
   posisinya di #7 dengan sedikit perubahan nama (sebelumnya \"
-  [Kegagalan Identifikasi dan
-  Autentikasi](https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/)
+  [Kegagalan Identifikasi dan Autentikasi](https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/)
   \") agar lebih akurat mencerminkan 36 CWE dalam kategori ini. Kategori
   ini tetap penting, tetapi peningkatan penggunaan kerangka kerja
   standar untuk autentikasi tampaknya memberikan dampak positif terhadap
   kejadian kegagalan autentikasi.
-- [**A08:2025 - Kegagalan Integritas Data atau Perangkat
-  Lunak**](A08_2025-Software_or_Data_Integrity_Failures.md) masih berada
+- [**A08:2025 - Kegagalan Integritas Data atau Perangkat Lunak**](A08_2025-Software_or_Data_Integrity_Failures.id.md) 
+  masih berada
   di peringkat ke-8. Kategori ini berfokus pada kegagalan dalam menjaga
   batas kepercayaan dan memverifikasi integritas perangkat lunak, kode,
   dan artefak data pada tingkat yang lebih rendah daripada Kegagalan
   Rantai Pasokan Perangkat Lunak.
-- [**A09:2025 - Kegagalan Pencatatan Log &
-  Peringatan**](A09_2025-Logging_and_Alerting_Failures.md)
+- [**A09:2025 - Kegagalan Pencatatan Log & Peringatan**](A09_2025-Logging_and_Alerting_Failures.id.md)
   mempertahankan posisinya di #9. Kategori ini mengalami sedikit
-  perubahan nama (sebelumnya [Kegagalan Pencatatan dan Pemantauan
-  Keamanan](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/)
+  perubahan nama (sebelumnya [Kegagalan Pencatatan dan Pemantauan Keamanan](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/)
   ) untuk menekankan pentingnya fungsi peringatan yang diperlukan untuk
   mendorong tindakan yang tepat pada peristiwa pencatatan yang relevan.
   Pencatatan yang baik tanpa peringatan hanya memiliki nilai minimal
   dalam mengidentifikasi insiden keamanan. Kategori ini akan selalu
   kurang terwakili dalam data, dan kembali dipilih dalam daftar oleh
   peserta survei komunitas.
-- [**A10:2025 - Penanganan Kondisi Luar Biasa yang Tidak
-  Tepat**](A10_2025-Mishandling_of_Exceptional_Conditions.md) adalah
+- [**A10:2025 - Penanganan Kondisi Luar Biasa yang Tidak Tepat**](A10_2025-Mishandling_of_Exceptional_Conditions.id.md) 
+  adalah
   kategori baru untuk tahun 2025. Kategori ini berisi 24 CWE yang
   berfokus pada penanganan kesalahan yang tidak tepat, kesalahan logika,
   kegagalan buka, dan skenario terkait lainnya yang berasal dari kondisi
